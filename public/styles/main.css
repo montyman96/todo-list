@@ -1,0 +1,94 @@
+html {
+    background-color: #e4e9fd;
+    background-image: -webkit-linear-gradient(90deg, #a683e3 10%, #e4e9fd 50%);
+    min-height: 1000px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+#title, .box {
+    background-color: #a683e3;
+    text-align: center;
+}
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px grey;
+}
+
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-color: 1px solid #f1f1f1;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    color: #00204a;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #a683e3;
+    color: #fff;
+    font-size: 30px;
+    border-width: 0;
+    margin-right: 5px;
+}
+
+form {
+    text-align: center;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
